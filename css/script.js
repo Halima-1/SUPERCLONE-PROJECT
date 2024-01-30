@@ -1,7 +1,7 @@
 function display(){
     
     // home
-    let display= document.getElementById('hom')
+    let display= document.getElementById('hom');
     if(display.classList.contains('show')){
         display.classList.remove('show');
         display.classList.add('hide');
@@ -93,4 +93,4 @@ function display(){
          document.querySelector('#name').innerHTML=fullName;
         })
         let site =`<a href="https://superjara.com">superjara</a>`
-        alert (`Welcome to superclone dashboard.Superclone is a cloned superjara website. you can visit the site in superjara.com`)
+        // alert (`Welcome to superclone dashboard.Superclone is a cloned superjara website. you can visit the site in superjara.com`)
